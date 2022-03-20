@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <title>
+            Q & A
+        </title>
+        
+    
+    <style>
+        body
+        {
+            font-family: sans-serif;
+        }
+        #title
+        {
+            margin-top: 110px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .main
+        {
+            display: grid;
+            place-items: center;
+        }
+        .q1
+        {
+            background: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px #999;
+            padding: 1.5rem 1.5rem 0 1.5rem;
+            margin-bottom: 5px;
+            width:55%;
+            margin-bottom: 20px;
+        }
+        .q2
+        {
+            background: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px #999;
+            padding: 1.5rem 1.5rem 0 1.5rem;
+            margin-bottom: 5px;
+            width:55%;
+            margin-bottom: 20px;
+        }
+        .q3
+        {
+            background: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0px 0px 8px #999;
+            padding: 1.5rem 1.5rem 0 1.5rem;
+            margin-bottom: 5px;
+            width:55%;
+            margin-bottom: 20px;
+        }
+        .question
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: capitalize;
+            padding-bottom: 1rem;
+        }
+        
+        .question-btn
+        {
+            font-size: 1.5rem;
+            background: transparent;
+            border-color: transparent;
+            cursor: pointer;
+            color: var(--clr-gold);
+            transition: var(--transition);
+        } 
+        .answer
+        {
+            border-top: 1px solid black;
+        }
+        .answer
+        {
+            display: none;
+        }
+        
+       
+    </style>
+    </head>
+    <body>
+        <div class="total">
+            <h2 id="title">FAQs</h2>
+            <div class="main">
+            <div class="q1">
+                <a>
+                <div class="question">
+                Do You Accept All Major Credit Cards?
+                <button type="button" class="question-btn" id="a1" onclick="q1tog()">
+                    +
+                </button>
+                </div>
+                <div class="answer" id="ans1">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                    dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                    repellat reprehenderit.
+                </p>
+                </div>
+                </a>
+            </div>
+            <div class="q1">
+                <div class="question">
+                    Do You Support Local Farmers?
+                    <button type="button" class="question-btn" id="a2" onclick="q2tog()">
+                    +
+                    </button>
+                    </div>
+                    <div class="answer" id="ans2">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                        dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                        repellat reprehenderit.
+                    </p>
+                    </div>
+            </div>
+            <div class="q1">
+                <div class="question">
+                    Do You Use Organic Ingredients?
+                    <button type="button" class="question-btn" id="a3" onclick="q3tog()">
+                    +
+                    </button>
+                    </div>
+                    <div class="answer" id="ans3">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                        dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                        repellat reprehenderit.
+                    </p>
+                    </div>
+            </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
